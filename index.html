@@ -48,15 +48,16 @@
       text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.8);
     }
   
+
     .escudo {
       position: absolute;
-      top: 50%; /* 🔹 agrega esta línea */
+      bottom: 80px;
       right: 100px;
-      transform: translateY(-50%); /* 🔹 agrega esta línea */
-      width: 130px; /* 🔹 reduce el tamaño para que no sobresalga */
+      width: 200px;
       filter: drop-shadow(0 0 12px rgb(251, 254, 253));
       transition: transform 0.3s ease;
-    }
+      z-index: 10; /* 🔹 agrega esto *
+      }
 
     .escudo:hover {
       transform: scale(1.1);
@@ -160,6 +161,7 @@
 
 </body>
 </html>
+
 
 
 
